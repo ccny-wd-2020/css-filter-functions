@@ -1,0 +1,40 @@
+body {
+  margin: 50px;
+}
+
+img {
+  height: 350px;
+  width: 450px;
+}
+
+#brightness {
+  filter: brightness(1.1);
+}
+
+#blur {
+  filter: blur(5px);
+}
+
+#contrast {
+  filter: contrast(0.7);
+}
+
+#grayscale {
+  filter: grayscale(100%);
+}
+
+#opacity {
+  opacity: .5;
+}
+
+#saturate {
+  filter: saturate(200%);
+}
+
+#sepia {
+  filter: sepia(90%);
+}
+
+#drop-shadow {
+  filter: drop-shadow(-2rem 0 2.5rem #E48713);
+}
